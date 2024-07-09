@@ -116,7 +116,7 @@ cursor: pointer;
 
 background: rgba(13, 19, 33, 0.02);
 width: 1380px;
-height: 1395px;
+height: 1195px;
 left: 148px;
 bottom: 2993px;
 margin-top: 60px;
@@ -167,9 +167,9 @@ cursor: pointer;
 .contpage2{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 25px;
     border-radius: 15px;
-    width: 1280px;
+    width: 1180px;
     margin-left: 50px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     border-bottom: 25px;
@@ -179,10 +179,52 @@ cursor: pointer;
     display: flex;
     justify-content: space-around;
     gap: 25px;
-    padding: 50px;
+    padding: 0px;
     border-radius: 16px;
     width: 1180px;
+    padding: 50px;
     border-right: 10px;
     background: linear-gradient(90.00deg, rgba(255, 255, 255, 0),rgb(255, 255, 255) 100%);
     border-bottom: 25px;
+}
+.pg3{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Azeret Mono;
+}
+.pg3para{
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.viedo-content{
+    border: 5px solid #f1e9e9;
+            padding: 10px;
+            width: fit-content;
+            margin: auto;
+            border-radius: 10px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.skill{
+    font-family: Azeret Mono;
+}
+a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Azeret Mono;
+}
+.skill-title{
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
 }
