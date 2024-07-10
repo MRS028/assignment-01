@@ -16,6 +16,10 @@
     gap: 500px;
     
 }
+main section{
+    margin: 130px;
+    margin-bottom: 130px;
+}
 .hero-name{
     
 font-size: 40px;
@@ -213,9 +217,18 @@ opacity: 0.7;
     display: flex;
     justify-content: space-around;
     text-align: left;
+    gap: 24px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px;
 }
 .skill{
     font-family: Azeret Mono;
+    text-align: left;
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+    /*box-shadow: 0px 6px 50px 0px;*/
 }
 a{
     color: black;
@@ -227,4 +240,122 @@ a{
     font-family: Azeret Mono;
     font-size: 25px;
     font-weight: 800;
+    font-family: Azeret Mono;
+}
+.sk-01{
+    border-radius: 16px;
+    background: rgba(19, 170, 64, 0.05);
+    margin-left: 20px;
+}
+.sk-02{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-left: 20px;
+}
+.sk-03{
+    border-radius: 16px;
+    background: rgba(47, 14, 167, 0.05);
+    margin-left: 20px;
+}
+
+.skill-description{
+   opacity: 0.7;
+}
+.future-skills-container{
+
+}
+.skill2{
+    margin: 25px 0px;
+    font-family: Azeret Mono;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 20px;
+    padding: 40px;
+}
+.h1-cont3{
+    font-family: Azeret Mono;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+padding-top: 0px;
+color: white;
+}
+.suggestion{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-radius: 5px;
+}
+#inputbox{
+    /*background-image: url(/assets/handshake.jpg);
+    width: 1250px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;*/
+    height: 350px;
+    background-image:linear-gradient(0.00deg, rgb(0, 0, 0, 0.2) -19.5%,rgba(0, 0, 0, 0.2) 100%,rgba(0, 0, 0, 0.2) -20%), url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    
+
+
+}
+.sg-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 26px;
+font-weight: 500;
+text-align: center;
+border-radius: 10px;
+width: 150px;
+height: 50px;
+cursor: pointer;
+
+
+}
+.pg4para{
+    font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 400;
+color: white;
+text-align: center;
+opacity: 0.7;
+padding: 30px;
+}
+.suggestion{
+    width: 500px;
+    height: 10px;
+    padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+border-radius: 10px;
+border: none;
+box-shadow: white;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 600px;
+    background-color: rgb(242, 241, 240);
+    align-items: center;
+    border-radius: 8px;
+    
 }
