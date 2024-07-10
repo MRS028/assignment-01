@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-01</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="azeret-mono">
     <header>
@@ -24,7 +27,7 @@
                         and stay updated with the latest technological advancements.
                     </p>
                     <div class="btn-container">
-                        <button class="bt-banner">Contact with me</button>
+                        <button class="bt-banner" id="gotofooter">Contact with me</button>
                     </div>
 
         </section>
@@ -192,7 +195,7 @@
        <section id="inputbox">
         <div>
             <h1 class="h1-cont3">I need Support</h1>
-            <p class="pg4para"> Give a suggestion about my journeyof web development</p>
+            <p class="pg4para"> Give a suggestion about my journey of web development.</p>
             <div class="suggestion"><textarea class="suggestion" name="text" id="" cols="30" rows="2" placeholder="Suggest me any feedback for me"></textarea>
                 <input class="sg-btn" type="button" value="Submit">
             </div>
@@ -203,17 +206,22 @@
 
 </main>
 
-    <footer>
+    <footer id="footer">
         <div>
             <p>An Open Commitment by Md. Rifat Sheikh</p>
         </div>
-        <div>
+        <div class="icon">
             <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt=""></a>
             <a href="https://github.com/"><img src="assets/github.png" alt=""></a>
             <a href="https://www.linkedin.com/"><img src="assets/linkedin-icon 1.png" alt=""></a> 
            </div> 
 
     </footer>
+    <script>
+        document.getElementById('gotofooter').addEventListener('click', function() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 
 </body>
 </html>

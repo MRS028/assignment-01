@@ -34,15 +34,15 @@ text-align: left;
     background-position: top left, bottom right;
 }
 .btn-header{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 500;
-text-align: center;
-border-radius: 5px;
-width: 220px;
-height: 50px;
-cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
 }
 
 
@@ -89,7 +89,7 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 border-radius: 10px;
-width: 210px;
+width: 250px;
 height: 58px;
 cursor: pointer;
 }
@@ -235,6 +235,7 @@ a{
     font-size: 18px;
     font-weight: 700;
     font-family: Azeret Mono;
+    gap: 20px;
 }
 .skill-title{
     font-family: Azeret Mono;
@@ -353,9 +354,16 @@ box-shadow: white;
 footer{
     display: flex;
     justify-content: space-around;
+    font-family: Azeret Mono;
     gap: 600px;
     background-color: rgb(242, 241, 240);
     align-items: center;
     border-radius: 8px;
     
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
 }
